@@ -1,0 +1,206 @@
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.logo {
+    height: 42px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.phone-icon {
+    height: 37px;
+    width: 37px;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.footer-top {
+    background-color: #d8dfd7;
+}
+
+.text-big {
+    font-size: 60px;
+}
+
+.hero {
+    background: linear-gradient(#f5f6f5, white);
+    position: relative;
+}
+
+.hero-flower {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: auto;
+    z-index: 1;
+}
+
+.check-icon {
+    height: 16px;
+    width: auto;
+}
+
+.number {
+    display: inline-flex;
+    min-width: 32px;
+    height: 32px;
+    background-color: #f0bb2c;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-xl {
+    font-size: 20px;
+}
+
+.yellow-shadow {
+    box-shadow: 2px 2px 0px #f0bb2c;
+    border-radius: 20px !important;
+}
+
+.btn-yellow {
+    background-color: #f0bb2c !important;
+    color: white !important;
+}
+
+.flower {
+    height: 24px;
+    width: 24px;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+.testimonial {
+    background-color: #f0f2f0;
+}
+
+.testimonial-icon {
+    height: 44px;
+    width: 44px;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.green-border {
+    box-shadow: 2px 2px 0px #b4ccb9;
+    border-radius: 0 0 10px 0;
+}
+
+.user-icon {
+    height: 45px;
+    margin-top: 2px;
+}
+
+.cta {
+    background-color: #2c2b2c;
+}
+
+.cta-flower {
+    height: 150px;
+    width: auto;
+    z-index: 1;
+}
+
+.icon {
+    height: 50px;
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+}
+
+.bg-warning {
+    background-color: #f3bb30 !important;
+}
+
+.arrow {
+    height: 50px;
+}
+
+.question-number {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.question-number.active {
+    background-color: #f3bb30;
+    color: white;
+}
+
+.question-number.completed {
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+.question-number.inactive {
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+.btn-continue {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Step visibility */
+.step {
+    display: none !important;
+    min-height: 70vh;
+}
+
+.step.active {
+    display: block !important;
+}
+
+.step .hero {
+    min-height: 60vh;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        height: 32px;
+    }
+
+    .tel-text,
+    .hero-flower,
+    .doctor {
+        display: none;
+    }
+
+    .hero-content {
+        position: relative !important;
+        z-index: 299;
+    }
+
+    .hero .col-md-5.my-auto {
+        margin-top: 20px !important;
+    }
+
+    .container.position-relative {
+        z-index: 1000 !important;
+    }
+}
