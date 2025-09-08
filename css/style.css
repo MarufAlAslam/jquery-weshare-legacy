@@ -217,6 +217,13 @@ table th:first-child {
     display: none;
 }
 
+#step-2,
+#step-3,
+#step-4,
+#thank-you {
+    background-color: #f9faf9;
+}
+
 @media screen and (max-width: 767px) {
     .logo {
         height: 32px;
