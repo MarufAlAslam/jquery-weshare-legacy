@@ -1,9 +1,9 @@
 * {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "aktiv-grotesk-extended", sans-serif;
     color: #2c2b2c;
 }
 
-.text-white{
+.text-white {
     color: white !important;
 }
 
@@ -18,6 +18,10 @@
 .phone-icon {
     height: 37px;
     width: 37px;
+}
+
+.arial {
+    font-family: Arial, sans-serif !important;
 }
 
 .text-sm {
@@ -209,6 +213,10 @@ table th:first-child {
     width: 70%;
 }
 
+.mobile-block {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .logo {
         height: 32px;
@@ -266,7 +274,22 @@ table th:first-child {
         width: auto;
     }
 
-    form .d-grid button{
+    form .d-grid button {
         margin-top: 20px;
+    }
+
+    .legacy-holder {
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+        gap: 0 !important;
+    }
+
+    .mobile-block {
+        display: block;
+    }
+
+    .form-again h2 {
+        font-size: 24px;
     }
 }
